@@ -1,0 +1,43 @@
+# Credentials / secrets
+firebase_key.json
+*.env
+.env
+
+# Raw and processed datasets
+data/
+dataset/
+preprocessed/
+*.npy
+*.npz
+*.csv
+
+# Training checkpoints and large model files
+*.pth
+*.pt
+*.onnx
+
+# TensorFlow generated directories
+tinyml_tf/
+saved_model/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE / OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.log
+
+# Generated training outputs
+outputs/
+
+# Local ESP32 credentials
+esp32/secrets.h
